@@ -107,7 +107,7 @@ main {
 
 #fondo{
     width: 100%;
-    height: 700px;
+    height: 900px;
     background-image: url(./fotos/jon-parry-C8eSYwQkwHw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,4 +247,117 @@ footer {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mayor claridad */
     animation: cambio-color 5s infinite alternate; /* Animación de cambio de color */
     padding-bottom:200px; /* Ajuste de posición vertical con padding */
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*---------------------------------prueba--------------------------------------------------*/
+
+
+.contenedor {
+    display: flex;
+}
+    
+.columna1 {
+    width: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+    
+.columna2 {
+    width: 50%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+.fotoprueba1 {
+    display: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.fotoprueba1 img {
+    width: 100%; /* Ancho fijo para las imágenes */
+    height: 10%; /* Altura automática */
+    margin-top: 15%;
+    margin-right: 4%;
+    max-width: 100%; /* Garantiza que las imágenes no se desborden */
+    
+}
+
+
+
+.fotoprueba2 {
+    display: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+
+.fotoprueba1, .fotoprueba2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.fotoprueba1 img, .fotoprueba2 img {
+    width: 100%; /* Ancho fijo para las imágenes */
+    height: auto; /* Altura automática */
+    margin-top: 15px; /* Ajuste de margen superior */
+    margin-right: 4%; /* Margen derecho */
+    max-width: 100%; /* Garantiza que las imágenes no se desborden */
+}
+
+
+.contenedor {
+    display: flex;
+}
+
+.columna1, .columna2 {
+    width: 50%;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.enlace1, .fotoprueba1, .fotoprueba2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.enlace1 a, .fotoprueba1 img, .fotoprueba2 img {
+    width: calc(50% - 5px); /* Ancho fijo para los enlaces y las imágenes */
+    height: auto; /* Altura automática */
+    margin-bottom: 15px; /* Margen inferior para separar los elementos */
+}
+
+.enlace1 img, .fotoprueba1 img, .fotoprueba2 img {
+    max-width: 100%; /* Garantiza que las imágenes no se desborden */
+}
+
+.fotoprueba1, .fotoprueba2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.fotoprueba1 img, .fotoprueba2 img {
+    width: 100%;
+    height: auto; /* Altura automática */
+    margin-bottom: 15px; /* Margen inferior para separar las imágenes */
+    max-width: 100%; /* Garantiza que las imágenes no se desborden */
 }
